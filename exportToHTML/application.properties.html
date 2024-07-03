@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>application.properties</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #808080;}
+.s2 { color: #6aab73;}
+.s3 { color: #bcbec4;}
+.s4 { color: #7a7e85;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+application.properties</font>
+</center></td></tr></table>
+<pre><span class="s0">spring.application.name</span><span class="s1">=</span><span class="s2">FusionIQ</span>
+<span class="s0">server.port</span><span class="s1">=</span><span class="s2">8080</span>
+<span class="s0">spring.datasource.url</span><span class="s1">=</span><span class="s2">jdbc:mysql://localhost:3306/rakesh</span>
+<span class="s4">#spring.datasource.url=jdbc:mysql://localhost:3306/Fusion?createDatabaseIfNotExist=true</span>
+<span class="s0">spring.datasource.username</span><span class="s1">=</span><span class="s2">root</span>
+<span class="s0">spring.datasource.password</span><span class="s1">=</span><span class="s2">1998</span>
+<span class="s0">spring.datasource.driver-class-name</span><span class="s1">=</span><span class="s2">com.mysql.cj.jdbc.Driver</span>
+<span class="s4">#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect</span>
+<span class="s0">spring.jpa.hibernate.ddl-auto</span><span class="s1">=</span><span class="s2">update</span>
+<span class="s0">spring.jpa.show-sql</span><span class="s1">=</span><span class="s2">true</span>
+
+<span class="s0">spring.mail.host</span><span class="s1">=</span><span class="s2">smtp.gmail.com</span>
+<span class="s0">spring.mail.port</span><span class="s1">=</span><span class="s2">587</span>
+<span class="s0">spring.mail.username</span><span class="s1">=</span><span class="s2">rakeshrakii0812@gmail.com</span>
+<span class="s0">spring.mail.password</span><span class="s1">=</span><span class="s2">bndzkixbseljfpuj</span>
+<span class="s0">spring.mail.properties.mail.smtp.auth</span><span class="s1">=</span><span class="s2">true</span>
+<span class="s0">spring.mail.properties.mail.smtp.starttls.enable</span><span class="s1">=</span><span class="s2">true</span>
+
+<span class="s0">spring.datasource.properties.max_allowed_packet</span><span class="s1">=</span><span class="s2">128M</span>
+
+
+<span class="s0">spring.datasource.hikari.connection-init-sql</span><span class="s1">=</span><span class="s2">SET GLOBAL max_allowed_packet=128*1024*1024</span>
+
+<span class="s4"># Set the maximum file size (default is 1MB)</span>
+<span class="s0">spring.servlet.multipart.max-file-size</span><span class="s1">=</span><span class="s2">500MB</span>
+
+<span class="s4"># Set the maximum request size (default is 10MB)</span>
+<span class="s0">spring.servlet.multipart.max-request-size</span><span class="s1">=</span><span class="s2">500MB</span>
+</pre>
+</body>
+</html>
