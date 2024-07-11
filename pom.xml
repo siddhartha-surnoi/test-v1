@@ -120,11 +120,7 @@
 			<artifactId>aws-java-sdk-s3</artifactId>
 			<version>1.12.728</version>
 		</dependency> 
-		<dependency>
-    <groupId>org.sonarsource.scanner.maven</groupId>
-    <artifactId>sonar-maven-plugin</artifactId>
-    <version>4.0.0.4121</version>
-</dependency>
+
 
 	</dependencies>
 
@@ -137,6 +133,13 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+		
+  <plugin>
+    <groupId>org.sonarsource.scanner.maven</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>6.1.0.4477</version>
+  </plugin>
+
                                
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
